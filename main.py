@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 從環境變數中讀取 API 金鑰
-api_key = os.getenv("STACK_OVERFLOW_API_KEY")
+api_key = os.getenv("STACKEXCHANGE_KEY")
 
 # 現在你可以安全地使用這個金鑰了
 print(f"我的 API 金鑰是：{api_key}")
